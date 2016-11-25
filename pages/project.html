@@ -90,6 +90,10 @@
                                 <a target="_blank" href="http://www.skku.edu" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Skku</span></a>
                             </li>
                         </ul>
+                        <a href="#WordPress" class="dj_special scroll">WordPress</a><br/>
+                        <a href="#OpenStack" class="dj_special scroll">OpenStack</a><br/>
+                        <a href="#MariaDB" class="dj_special scroll">MariaDB</a><br/>
+                        <a href="#Hadoop" class="dj_special scroll">Hadoop</a>
                     </div>
                 </div>
             </div>
@@ -103,18 +107,18 @@
     <!-- Page Content -->
 
     <a  name="services"></a>
-    <div class="content-section-a">
+    <div class="content-section-a" id="WordPress">
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
+                    <h2 class="section-heading">WordPress</h2>
                     <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="../img/ipad.png" alt="">
+                    <img class="img-responsive" src="../img/wordpress.png" alt="">
                 </div>
             </div>
 
@@ -124,7 +128,7 @@
     </div>
     <!-- /.content-section-a -->
 
-    <div class="content-section-b">
+    <div class="content-section-b" id="OpenStack">
 
         <div class="container">
 
@@ -132,11 +136,11 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
+                    <h2 class="section-heading">OpenStack</h2>
                     <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="../img/dog.png" alt="">
+                    <img class="img-responsive" src="../img/openstack.png" alt="">
                 </div>
             </div>
 
@@ -146,7 +150,7 @@
     </div>
     <!-- /.content-section-b -->
 
-    <div class="content-section-a">
+    <div class="content-section-a" id="MariaDB">
 
         <div class="container">
 
@@ -154,11 +158,11 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
+                    <h2 class="section-heading">MariaDB</h2>
                     <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="../img/phones.png" alt="">
+                    <img class="img-responsive" src="../img/maria.png" alt="">
                 </div>
             </div>
 
@@ -167,6 +171,28 @@
 
     </div>
     <!-- /.content-section-a -->
+
+    <div class="content-section-b" id="Hadoop">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Hadoop</h2>
+                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="../img/hadoop.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
 
     <a  name="contact"></a>
     <div class="banner">
@@ -220,6 +246,14 @@
 
     <!-- jQuery -->
     <script src="../js/jquery.js"></script>
+    <script>
+        $(document).ready(function($){
+            $(".scroll").click(function(event){
+                event.preventDefault ();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            })
+        })
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
