@@ -17,8 +17,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .topnav {
@@ -49,6 +51,7 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+	font-weight: 700;
 }
 
 .intro-divider {
@@ -60,10 +63,12 @@ h6 {
 .intro-message > h2 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     color: gray;
+	font-weight: 500;
 }
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-weight: 400;
 }
 
 @media(max-width:767px) {
@@ -74,7 +79,6 @@ h6 {
     .intro-message > h1 {
         font-size: 3em;
     }
-
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
