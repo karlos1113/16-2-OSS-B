@@ -24,7 +24,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -114,6 +114,10 @@ h6 {
 
 .section-heading {
     margin-bottom: 30px;
+}
+
+.section-heading-b {
+    margin-bottom: 10px;
 }
 
 .section-heading-spacer {
@@ -228,4 +232,15 @@ h2.head-line, h3.head-line {
 
 .arrow {
     cursor: default;
+}
+
+.smaller-image {
+    width: 350px;
+  }
+
+.sub-title{
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
