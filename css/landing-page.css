@@ -292,3 +292,7 @@ h2.head-line, h3.head-line {
   text-align: left;
   width: 170px;
 }
+
+.fontwhite{
+  color: white;
+}
