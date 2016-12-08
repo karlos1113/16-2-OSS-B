@@ -24,7 +24,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -32,7 +32,7 @@ h6 {
     font-weight: 400;
 }
 
-.intro-header {
+.intro-header{
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
@@ -40,6 +40,16 @@ h6 {
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
+
+.intro-header-atom {
+    padding-top: 300px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 500px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 
 .intro-message {
     position: relative;
@@ -112,14 +122,27 @@ h6 {
     border-bottom: 1px solid #e7e7e7;
 }
 
+.content-section-b1{
+    padding: 100px 0;
+}
+
 .section-heading {
     margin-bottom: 30px;
+}
+
+.section-heading-b {
+    margin-bottom: 10px;
 }
 
 .section-heading-spacer {
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
+}
+
+.section-heading-spacer-b {
+    float: left;
+    width: 100px;
 }
 
 .banner {
@@ -228,4 +251,44 @@ h2.head-line, h3.head-line {
 
 .arrow {
     cursor: default;
+}
+
+.smaller-image {
+    width: 350px;
+  }
+
+.korean_font{
+  font-family: 'Nanum Pen Script', sans-serf;
+  text-align: justify;
+  font-size: 19px;
+
+}
+
+.sub-title{
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+  position: pixed;
+  display: block;
+  padding: 10px 20px;
+  height: 50px;
+  margin-bottom: -1px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+.floating {
+  position: fixed;
+  left: 50%;
+  top: 200px;
+  font-size: 17px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  margin-left: -750px;
+  text-align: left;
+  width: 170px;
 }
