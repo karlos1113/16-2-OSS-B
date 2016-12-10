@@ -30,6 +30,7 @@ h6 {
 .lead {
     font-size: 18px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .intro-header{
@@ -42,11 +43,9 @@ h6 {
 }
 
 .intro-header-atom {
-    padding-top: 300px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 500px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 500px;
-    text-align: center;
-    color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: no-repeat center center;
     background-size: cover;
 }
 
@@ -132,6 +131,11 @@ h6 {
 
 .section-heading-b {
     margin-bottom: 10px;
+}
+
+.section-heading-c {
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .section-heading-spacer {
@@ -258,9 +262,10 @@ h2.head-line, h3.head-line {
   }
 
 .korean_font{
-  font-family: 'Nanum Pen Script', sans-serf;
+  font-family: 'Noto Sans KR', sans-serf;
   text-align: justify;
-  font-size: 19px;
+  font-size: 17px;
+  font-weight: 400;
 
 }
 
@@ -285,4 +290,8 @@ h2.head-line, h3.head-line {
 
 .fontwhite{
   color: white;
+}
+
+.atom-heading{
+  font-size: 25px;
 }

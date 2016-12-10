@@ -81,6 +81,11 @@
 
     <!-- Post Content -->
     <article>
+      <br />
+      <div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">
+        <h2 class="section-heading-c">Atom is a text editor that is modern, approachable,<span style="line-height:150%"><br></span>yet hackable to the core; a tool you can customize.</h>
+          <br/><br/><br/><br/>
+      </div>
 
 
 
@@ -89,11 +94,12 @@
 
                   <div class="container">
                     <div class="floating header" style="display:none">
-                      <a class="list-group-item" href="#navbar">Introduction</a>
-                      <a class="list-group-item" href="#buttons">How to install</a>
-                      <a class="list-group-item" href="#typography">Packages</a>
-                      <a class="list-group-item" href="#tables">Advantages</a>
-                      <a class="list-group-item" href="#forms">Disadvantages</a>
+                      <a class="list-group-item" href="atom.html">Introduction</a>
+                      <a class="list-group-item" href="atom_install.html">How to install</a>
+                      <a class="list-group-item" href="atom_setting.html">Setting</a>
+                      <a class="list-group-item" href="atom_packages">Packages</a>
+                      <a class="list-group-item" href="atom_advantages">Advantages</a>
+                      <a class="list-group-item" href="atom_disadvantages">Disadvantages</a>
                     </div>
 
                       <div class="row">
@@ -242,7 +248,7 @@
     $(function(){
   $(window).scroll(function(){
     var num = $(this).scrollTop();
-    if( num > 300 ){  // 스크롤을 300px
+    if( num > 400 ){  // 스크롤을 400px
       $(".header").css("position","fixed");
       $(".header").css("display","block");
     }else{
