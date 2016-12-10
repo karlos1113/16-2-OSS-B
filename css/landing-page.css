@@ -44,6 +44,10 @@ body, h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.intro-header-fc {
+    width: 100%;
+}
+
 .intro-message {
     position: relative;
     padding-top: 20%;
@@ -284,4 +288,24 @@ h2.head-line, h3.head-line {
 
 .atom-heading {
     font-size: 25px;
+}
+
+.fc-heading{
+  text-align: center;
+  margin-left:100px;
+  margin-right:100px;
+  font-size: 25px;
+}
+
+.fc-contents{
+  text-align: left;
+  font-size: 20px;
+}
+
+.space-bottom{
+  margin-bottom: 15px;
+}
+
+.space-left{
+  margin-left: 70px;
 }

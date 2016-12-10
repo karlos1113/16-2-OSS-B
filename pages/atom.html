@@ -75,9 +75,7 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header-atom" style="background-image: url('../img/atommain.png')">
-
-    </header>
+<img class="img-responsive intro-header-fc" src="../img/atommain.png" alt="">
 
     <!-- Post Content -->
     <article>
@@ -248,7 +246,7 @@
         $(function() {
             $(window).scroll(function() {
                 var num = $(this).scrollTop();
-                if (num > 400) { // 스크롤을 400px
+                if (num > 430) { // 스크롤을 400px
                     $(".header").css("position", "fixed");
                     $(".header").css("display", "block");
                 } else {
