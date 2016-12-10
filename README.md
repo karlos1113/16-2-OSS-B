@@ -12,7 +12,7 @@
 
 ###Open-Source Project
 - Wordpress O
-- Hadoop O
+- Hadoop
 - MariaDB
 - Openstack O
 - MongoDB O
