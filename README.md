@@ -11,19 +11,23 @@
 - Apache
 
 ###Open-Source Project
-- Wordpress
-- Hadoop
+- Wordpress O
+- Hadoop O
 - MariaDB
-- Openstack
+- Openstack O
 
 ###License
-- GPL License
-- Apache License
+- GPL License O
+- Apache License O
 - Mit License
 
 ###Git/Github
-- Git
+- Git O
 - Github
+
+###Github Project
+- Atom Editor O
+- Freecodecamp O
 
 ## Copyright and License
 
