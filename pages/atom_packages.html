@@ -20,7 +20,7 @@
     <!-- Custom Fonts -->
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet" type="text/css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -79,7 +79,7 @@
                     <div class="post-heading">
                         <h1>Atom is a text editor that is modern, approachable,</h1>
                         <h2 class="subheading">yet hackable to the core; a tool you can customize.</h2>
-                        <span class="atom-heading"> <a href="atom_setting.html">Setting</a> </span>
+                        <span class="atom-heading"> <a href="atom_packages.html">Packages</a> </span>
                     </div>
                 </div>
             </div>
@@ -100,15 +100,38 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                        <center><img class="img-responsive" src="../img/atomsetting1.png" alt=""></center>
                         <br />
-                        <p class="korean_font">▲ Atom을 실행하시면 이렇게 시작화면이 뜹니다. 바로 Choose a Theme (테마 고르기)나 File ▶ Setting ▶ Themes 로 가시면 아톰의 테마를 변경하실 수 있습니다. UI Theme과 Syntax Theme에서 원하시는 테마를 조합하시면 됩니다. 마음에 드는 테마가 없으면 Setting ▶ Install 로 가셔서 패키지 검색 창 옆에 있는 Themes 를 누른 다음에 인기 있는
-                            테마를 다운로드 받으시거나 직접 검색하셔서 찾으시면 됩니다. </p>
-                        <br /><br /><br /><br />
-                        <center><img class="img-responsive" src="../img/atomsetting2.png" alt=""></center>
-                        <br />
-                        <p class="korean_font">▲ Setting ▶ Packages 로 가면 설치되어있는 패키지들을 확인하실 수 있고 설정을 바꾸고 필요 없는 기능들은 비활성화시키거나 삭제시키실 수 있습니다. Setting ▶ Install 로 가셔서 검색 창 옆에 Packages를 누르시면 인기 있는 패키지들을 다운로드 받을 수 있고 원하는 패키지를 검색하셔서 설치할 수 있습니다.</p>
-                        <br />
+                        <ul>
+                            <li>
+                                <p class="korean_font"> 기본 패키지: 아톰을 처음 설치하시면 기본 패키지들과 함께 설 됩니다. Ctrl + \(역슬래쉬 키) 를 누르면 왼쪽에 디텍터리 구조를 볼 수 있게 해주는 창도 기본적으로 설치 되어있는 tree-view 패키지입니다. 이렇듯 패키지들을 설치하시면 가벼운 아톰 에디터를 강력한 툴로 변하게 할 수 있습니다. 그중에서 인기 있고 아주 간편한 패키지 몇 개를 소개해 드립니다.</p>
+                            </li>
+                            <br /><br /><br />
+                            <li>
+                                <p class="korean_font"> Emmet: 웹 개발을 위한 강력한 툴인데요, 간편한 자동완성은 물론이고 수식을 조합해서 반복적으로 입력해야 하는 코드를 한 줄로 완성 시킬 수 있습니다. http://docs.emmet.io/로 가시면 Emmet에 대한 사용법이 자세히 나와 있습니다. ▼ </p><br /></li>
+                            <center><img class="img-responsive" src="../img/atompack1.png" alt=""></center>
+                            <br />
+                            <center><img class="img-responsive" src="../img/atompack2.png" alt=""></center>
+                            <br />
+                            <p class="korean_font">!를 입력한 후 tab 키만 누르시면 위처럼 기본적인 HTML 템플릿이 생성됩니다.</p>
+                            <br /><br /><br />
+
+                            <li>
+                                <p class="korean_font"> Minimap: 코드가 아주 길어질수록 줄이 많아집니다. 이런 경우 어느 위치에서 코딩하는 지 알기 쉽지 않은데 Minimap을 설치하시면 오른쪽에 코드들이 아주 작게 적혀있고 해당 위치가 표시돼서 마치 코드들의 지도를 보는 것처럼 사용할 수 있습니다. ▼</p>
+                            </li>
+                            <br />
+                            <center><img class="img-responsive" src="../img/atompack3.png" alt=""></center>
+                            <br />
+                            <p class="korean_font">▲ Setting ▶ Packages 로 가면 설치되어있는 패키지들을 확인하실 수 있고 설정을 바꾸고 필요 없는 기능들은 비활성화시키거나 삭제시키실 수 있습니다. Setting ▶ Install 로 가셔서 검색 창 옆에 Packages를 누르시면 인기 있는 패키지들을 다운로드 받을 수 있고 원하는 패키지를 검색하셔서 설치할 수 있습니다.</p>
+                            <br /><br /><br />
+
+                            <li>
+                                <p class="korean_font"> Linter: 코드를 작성하다 보면 오타들이나 문법적 오류들이 생기는 데요, 이런 실수를 할 때마다 Linter 패키지가 오류가 있는 부분을 가리키고 어떤 문제가 있는지 알려줍니다. Linter 패키지를 설치한 후 원하시는 프로그래밍 언어에 해당하는 패키지를 추가로 설치하시면 됩니다. (예: Linter-htmlhint) ▼</p>
+                            </li>
+                            <br />
+                            <center><img class="img-responsive" src="../img/atompack4.png" alt=""></center>
+                            <br />
+                            <p class="korean_font">이외 여러 가지 패키지들이 있으니 마음에 들고 실용적인 패키지들이 있으시면 설치하셔서 마음껏 사용하시면 됩니다.</p>
+                        </ul>
                     </div>
                 </div>
             </div>

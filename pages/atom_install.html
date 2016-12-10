@@ -88,27 +88,28 @@
 
     <!-- Post Content -->
     <article>
-      <div class="container">
-        <div class="floating header" style="display:block">
-          <a class="list-group-item" href="atom.html">Introduction</a>
-          <a class="list-group-item" href="atom_install.html">How to install</a>
-            <a class="list-group-item" href="atom_setting.html">Setting</a>
-          <a class="list-group-item" href="atom_packages">Packages</a>
-          <a class="list-group-item" href="atom_advantages">Advantages</a>
-          <a class="list-group-item" href="atom_disadvantages">Disadvantages</a>
-        </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p class="korean_font">먼저 아톰 에디터 홈페이지 <a href = "https://atom.io/">https://atom.io/</a>로 들어가세요</p>
-                    <img class="img-responsive" src="../img/atominstall1.png" alt="">
-                    <br />
-                    <p class="korean_font">▲ 이렇게 홈 화면이 뜹니다. 빨간색 버튼으로 되어있는 Download Windows Installer를 눌러주세요. 그러면 AtomSetup.exe 파일을 다운로드 받게 됩니다. 실행시켜서 아톰을 설치해주세요. </p>
-                    <br /><br /><br /><br />
-                    <img class="img-responsive" src="../img/atominstall2.png" alt="">
-                    <br />
-                    <p class="korean_font">▲ 이런 화면이 뜨면서 자동으로 설치가 완료됩니다.</p>
-                    <br />
+            <div class="floating header" style="display:block">
+                <a class="list-group-item" href="atom.html">Introduction</a>
+                <a class="list-group-item" href="atom_install.html">How to install</a>
+                <a class="list-group-item" href="atom_setting.html">Setting</a>
+                <a class="list-group-item" href="atom_packages.html">Packages</a>
+                <a class="list-group-item" href="atom_advantages.html">Advantages</a>
+                <a class="list-group-item" href="atom_disadvantages.html">Disadvantages</a>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <p class="korean_font">먼저 아톰 에디터 홈페이지 <a href="https://atom.io/">https://atom.io/</a>로 들어가세요</p>
+                        <img class="img-responsive" src="../img/atominstall1.png" alt="">
+                        <br />
+                        <p class="korean_font">▲ 이렇게 홈 화면이 뜹니다. 빨간색 버튼으로 되어있는 Download Windows Installer를 눌러주세요. 그러면 AtomSetup.exe 파일을 다운로드 받게 됩니다. 실행시켜서 아톰을 설치해주세요. </p>
+                        <br /><br /><br /><br />
+                        <img class="img-responsive" src="../img/atominstall2.png" alt="">
+                        <br />
+                        <p class="korean_font">▲ 이런 화면이 뜨면서 자동으로 설치가 완료됩니다.</p>
+                        <br />
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,19 +140,19 @@
     <!-- jQuery -->
     <script src="../js/jquery.js"></script>
     <script>
-    $(function(){
-  $(window).scroll(function(){
-    var num = $(this).scrollTop();
-    if( num > -1 ){  // 스크롤을 400px
-      $(".header").css("position","fixed");
-      $(".header").css("display","block");
-    }else{
-      $(".header").css("position","absolute");
-      $(".header").css("display","none");
-    }
-  });
-});
-</script>
+        $(function() {
+            $(window).scroll(function() {
+                var num = $(this).scrollTop();
+                if (num > -1) { // 스크롤을 400px
+                    $(".header").css("position", "fixed");
+                    $(".header").css("display", "block");
+                } else {
+                    $(".header").css("position", "absolute");
+                    $(".header").css("display", "none");
+                }
+            });
+        });
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
