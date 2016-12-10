@@ -15,6 +15,8 @@
 - Hadoop O
 - MariaDB
 - Openstack O
+- MongoDB O
+- Chrome O
 
 ###License
 - GPL License O
