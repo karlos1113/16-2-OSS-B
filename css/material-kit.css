@@ -3680,7 +3680,7 @@ h2.title {
   color: #FFFFFF;
 }
 .landing-page .wrapper {
-  background: #CCCCCC;
+  
 }
 
 .profile-page .header {
@@ -3756,6 +3756,13 @@ h2.title {
     margin-left: 10px;
     margin-right: 10px;
   }
+}
+
+.yellowbg{
+	background-color: #D89F00;
+}
+.bluebg{
+	background-color: #2F4AA2;
 }
 
 /*# sourceMappingURL=material-kit.css.map */
