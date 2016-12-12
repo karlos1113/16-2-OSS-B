@@ -309,3 +309,7 @@ h2.head-line, h3.head-line {
 .space-left{
   margin-left: 70px;
 }
+
+.font-black {
+  color: black;
+}
