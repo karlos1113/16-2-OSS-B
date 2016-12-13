@@ -290,26 +290,26 @@ h2.head-line, h3.head-line {
     font-size: 25px;
 }
 
-.fc-heading{
-  text-align: center;
-  margin-left:100px;
-  margin-right:100px;
-  font-size: 25px;
+.fc-heading {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25px;
 }
 
-.fc-contents{
-  text-align: left;
-  font-size: 20px;
+.fc-contents {
+    text-align: left;
+    font-size: 20px;
 }
 
-.space-bottom{
-  margin-bottom: 15px;
+.space-bottom {
+    margin-bottom: 15px;
 }
 
-.space-left{
-  margin-left: 70px;
+.space-left {
+    margin-left: 70px;
 }
 
 .font-black {
-  color: black;
+    color: black;
 }
