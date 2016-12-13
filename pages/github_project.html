@@ -72,47 +72,55 @@
         <!-- /.container -->
     </nav>
 
-<!-- Header -->
-<a name="about"></a>
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#bs-carousel" data-slide-to="5" class="active"></li>
-        <li data-target="#bs-carousel" data-slide-to="6"></li>
-    </ol>
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#bs-carousel" data-slide-to="1"></li>
+        </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
 
-        <div class="item slides active">
-            <div class="slide-5">
-                <center><img class="img-responsive intro-header-fc" src="../img/slide/atomslide.png" alt=" "></center>
+            <div class="item slides active">
+                <div class="slide-1">
+                    <center><img class="img-responsive intro-header-fc" src="../img/slide/atomslide.png" alt=" "></center>
+                </div>
+                <div class="hero">
+                    <hgroup class="text-right">
+                        <h1>Atom</h1>
+                    </hgroup>
+                    <button class="btn btn-hero btn-lg btn-right" role="button"><a href="#Atom" class="fontwhite scroll">Read More</a></button>
+                </div>
             </div>
-            <div class="hero">
-                <hgroup class="text-right">
-                    <h1>Atom</h1>
-                </hgroup>
-                <button class="btn btn-hero btn-lg btn-right" role="button"><a href="#Atom" class="fontwhite scroll">Read More</a></button>
+            <div class="item slides">
+                <div class="slide-2">
+                    <center><img class="img-responsive intro-header-fc" src="../img/slide/fcslide.jpg" alt=" "></center>
+                </div>
+                <div class="hero">
+                    <hgroup>
+                        <h1>FreeCodeCamp</h1>
+                    </hgroup>
+                    <button class="btn btn-hero btn-lg" role="button"><a href="#Freecodecamp" class="fontwhite scroll">Read More</a></button>
+                </div>
             </div>
         </div>
-        <div class="item slides">
-            <div class="slide-6">
-                <center><img class="img-responsive intro-header-fc" src="../img/slide/fcslide.jpg" alt=" "></center>
-            </div>
-            <div class="hero">
-                <hgroup>
-                    <h1>FreeCodeCamp</h1>
-                </hgroup>
-                <button class="btn btn-hero btn-lg" role="button"><a href="#Freecodecamp" class="fontwhite scroll">Read More</a></button>
-            </div>
-        </div>
+        <a class="left carousel-control" href="#bs-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#bs-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-</div>
-<!-- /.slider -->
-<!-- /.intro-header -->
+    <!-- /.slider -->
+    <!-- /.intro-header -->
     <!-- Page Content -->
 
-    <a  name="services"></a>
+    <a name="services"></a>
     <div class="content-section-a" id="Atom">
 
         <div class="container">
@@ -152,7 +160,7 @@
                     <a href="freecodecamp.html">자세히 알아보기</a>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <br /><br /><br /><br />
+                    <br /><br /><br /><br />
                     <img class="img-responsive" src="../img/freecodecamp.jpg" alt="">
                 </div>
             </div>
@@ -186,7 +194,7 @@
         </div>
     -->
 
-    <a  name="contact"></a>
+    <a name="contact"></a>
     <div class="banner">
 
         <div class="container">
@@ -239,10 +247,12 @@
     <!-- jQuery -->
     <script src="../js/jquery.js"></script>
     <script>
-        $(document).ready(function($){
-            $(".scroll").click(function(event){
-                event.preventDefault ();
-                $('html,body').animate ({scrollTop: $(this.hash).offset().top}, 1000);
+        $(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
             })
         })
     </script>
