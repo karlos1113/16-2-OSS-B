@@ -313,3 +313,7 @@ h2.head-line, h3.head-line {
 .font-black {
   color: black;
 }
+
+.material-icons{
+	font-size: 80px;
+}
