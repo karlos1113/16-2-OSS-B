@@ -313,3 +313,21 @@ h2.head-line, h3.head-line {
 .font-black {
     color: black;
 }
+
+.pad-top{
+  padding-top: 330px;
+}
+
+.pad-left{
+  padding-left: 50px;
+}
+
+.atom-back-menu{
+  background-color: #D6D6C2;
+  font-weight: bold;
+}
+
+.fc-back-menu{
+  background-color: #ADD076;
+  font-weight: bold;
+}
